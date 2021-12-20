@@ -31,4 +31,6 @@ class Player {
         return this.unusedTokens[0]
     }
 
+    checkTokens(){}
+
 }
