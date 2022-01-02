@@ -14,6 +14,7 @@ class Space {
 
         // Set attributes to the svgSpace
         svgSpace.setAttributeNS(null, "id", this.id);
+        svgSpace.setAttributeNS(null, "data-column", this.x)
         svgSpace.setAttributeNS(null, "cx", (this.x * this.diameter) + this.radius);
         svgSpace.setAttributeNS(null, "cy", (this.y * this.diameter) + this.radius);
         svgSpace.setAttributeNS(null, "r", this.radius - 8);
